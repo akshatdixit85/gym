@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Akshat Fitness Club</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@700&display=swap" rel="stylesheet">
+    <style>
+        body{
+            /* margin: 0px;
+            padding: 0px; */
+            background: url('gym.jpg');
+            /* height: 0px;
+            width: 0px; */
+            color: white;
+            font-family: 'Baloo Bhai 2', cursive;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <!-- left for logo -->
+        <div class="left">
+          <img src="logo.png" alt="GYM_LOGO" class="log">
+          <div style="text-align: center;">Akshat Fitness</div>
+        </div>
+
+        <!-- mid for nav bar -->
+        <div class="mid">
+         <nav class="nav">
+             <ul class="ul">
+                 <li><a href="#">Home</a></li>
+                 <li><a href="#">Contact Us</a></li>
+                 <li><a href="#">Fitness Calculator</a></li>
+                 <li><a href="#">About us</a></li>
+             </ul>
+         </nav>
+        </div>
+
+        <!-- right for buttons -->
+        <div class="right">
+          <button class="btn">Call Us</button><button class="btn">Email Us</button>
+        </div>
+    </header>
+    <div class="container">
+        To join our gym please fill the below form
+        <form action="#">
+            <div class="formGroup">
+                <input type="text" id="name" placeholder="Enter Your Name"><br>
+                <input type="number" id="age" placeholder="Enter Your Age"><br>
+                <input type="text" id="gender" placeholder="Enter Your Gender"><br>
+                <input type="number" id="num" placeholder="Enter Your Contact No."><br>
+                <input type="email" id="email" placeholder="Enter Your Email ID">
+            </div>
+            <input type="submit" value="Submit" class="btn" id="sub">
+        </form>
+    </div>
+    <span class="th">“Fitness is like a relationship. <br> You can’t cheat and expect it to work.”</span>
+</body>
+</html>
